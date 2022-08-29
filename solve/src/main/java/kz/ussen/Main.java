@@ -53,8 +53,6 @@ public class Main
 
         int result = (accum.get() / i.get()) / 3600;
         System.out.println("Среднее время полёта = " + result);
-        double percentile = result - (result * 0.10);
-        System.out.println("Процентиль 90 = " + percentile);
     }
 
     public static String readFileAsString(String file)throws Exception
